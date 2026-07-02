@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying manuscript."
+title: "Development and Explainability Audit of a ResNet-50 Deep Learning Model for Diagnostic Classification of Eyelid Tumors in an Indonesian Population"
+authors:
+  - family-names: Kindangen
+    given-names: Randy Vincent Suhartono
+  - family-names: Mahyuddin
+    given-names: Mutmainah
+  - family-names: Yusuf
+    given-names: Prasandhya Astagiri
+  - family-names: Sugiharto
+    given-names: Agus
+# Fill these in once the paper is published:
+# journal: "Translational Vision Science & Technology"
+# year: 2026
+# doi: 10.xxxx/xxxxx
