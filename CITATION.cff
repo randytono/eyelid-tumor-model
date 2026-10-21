@@ -1,16 +1,33 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the accompanying manuscript."
-title: "Development and Explainability Audit of a ResNet-50 Deep Learning Model for Diagnostic Classification of Eyelid Tumors in an Indonesian Population"
+message: "If you use this code, please cite the accompanying article."
+type: software
+title: "Explainability audit of a ResNet-50 eyelid-tumor classifier"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/randytono/eyelid-tumor-model"
 authors:
   - family-names: Kindangen
     given-names: Randy Vincent Suhartono
+    affiliation: "Department of Ophthalmology, Faculty of Medicine, Universitas Indonesia"
   - family-names: Mahyuddin
     given-names: Mutmainah
+    affiliation: "Ocular Oncology Division, Department of Ophthalmology, Faculty of Medicine, Universitas Indonesia"
   - family-names: Yusuf
     given-names: Prasandhya Astagiri
+    affiliation: "Big Data Center, Indonesian Medical Education and Research Institute, Faculty of Medicine, Universitas Indonesia"
   - family-names: Sugiharto
     given-names: Agus
-# Fill these in once the paper is published:
-# journal: "Translational Vision Science & Technology"
-# year: 2026
-# doi: 10.xxxx/xxxxx
+    affiliation: "Department of Community Medicine, Faculty of Medicine, Universitas Indonesia"
+keywords:
+  - eyelid neoplasms
+  - deep learning
+  - explainable AI
+  - Grad-CAM++
+  - shortcut learning
+# Add the article once published:
+# preferred-citation:
+#   type: article
+#   title: "Development and Explainability Audit of a ResNet-50 Deep Learning Model for Diagnostic Classification of Eyelid Tumors in an Indonesian Population"
+#   journal: "Translational Vision Science & Technology"
+#   year: 2026
+#   doi: 10.1167/tvst.XX.X.XX

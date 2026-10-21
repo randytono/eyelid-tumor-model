@@ -1,0 +1,60 @@
+# =====================================================================
+# PATIENT DATA: never commit. The study images, metadata and anything
+# derived from them stay inside the institutional environment.
+# =====================================================================
+data/*
+!data/README.md
+
+# Images of any kind (clinical photos, Grad-CAM overlays, figures)
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.bmp
+*.gif
+*.heic
+*.dcm
+
+# Tables (splits, predictions, rater sheets contain patient IDs or study labels)
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+
+# Notebooks: their saved outputs embed patient images.
+# To add one, clear all outputs first, then add it deliberately with `git add -f`.
+*.ipynb
+.ipynb_checkpoints/
+
+# Manuscript and thesis files
+*.docx
+*.pdf
+
+# Run outputs
+results/
+models/
+demo_output/
+splits/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

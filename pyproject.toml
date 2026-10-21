@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eyelid-audit"
+version = "1.0.0"
+description = "ResNet-50 eyelid-tumor classifier with a patient-clustered Grad-CAM++ faithfulness audit"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Randy Vincent Suhartono Kindangen" }]
+
+[tool.setuptools]
+packages = ["eyelid_audit"]
